@@ -1,0 +1,23 @@
+.mainBody{
+    background-image: url('https://c0.wallpaperflare.com/preview/902/404/8/blurred-background-close-up-colors-dark.jpg');
+    min-height: 600px;
+    margin-top: -13px;
+}
+.img{
+    height: 195px;
+    width: 270px;
+}
+.card{
+    align-items: center;
+    padding: 15px;
+    background-color:#808080ed;
+    margin:10px;
+}
+.card-body{
+    align-items: center;
+}
+#opt{
+    align-items: center;
+    margin-top: 8px;
+    margin-left: -32px;
+}
