@@ -17,7 +17,7 @@ function Body() {
         var temp = dat.map((obj, i) => {
             if (index == i) {
                 setAdd([...add, obj])
-                localStorage.setItem('pqrs', JSON.stringify(add))
+                localStorage.setItem('lclstore', JSON.stringify(add))
                 console.log(add);
             }
             else

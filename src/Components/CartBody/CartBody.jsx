@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function CartBody() {
     const [state, setstate] = useState([])
     const abc = () => {
-        var temp = JSON.parse(localStorage.getItem('pqrs'))
+        var temp = JSON.parse(localStorage.getItem('lclstore'))
         setstate([state, temp])
         state.map((obj) => {
             <h1>{obj.name}</h1>
