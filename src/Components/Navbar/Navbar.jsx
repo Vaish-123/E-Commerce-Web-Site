@@ -12,7 +12,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <h4 className='ml-3'><a href='/'>home</a></h4>
+                            <h4 className='ml-3'><a href='/'>Home</a></h4>
                         </li>
                         <li className="nav-item active">
                             <h4 className='ml-4'>About</h4>
@@ -28,8 +28,8 @@ function Navbar() {
                             <div className="dropdown pr-5">
                                 <button className="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://img.icons8.com/material-rounded/24/000000/guest-male.png" />  Account </button>
                                 <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <p className="dropdown-item" href="#">Login</p>
-                                    <p className="dropdown-item" href="#">Signup</p>
+                                    <a className="dropdown-item" href="/login">Login</a><br />
+                                    <a className="dropdown-item" href="/login">Signup</a>
                                 </div>
                             </div>
                         </li>

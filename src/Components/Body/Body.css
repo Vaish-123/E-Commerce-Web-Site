@@ -10,11 +10,12 @@
 .card{
     align-items: center;
     padding: 15px;
-    background-color:#808080ed;
+    background-color:rgb(42 44 54 / 56%);
     margin:10px;
 }
 .card-body{
     align-items: center;
+    color: white;
 }
 #opt{
     align-items: center;

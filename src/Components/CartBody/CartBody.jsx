@@ -8,6 +8,7 @@ function CartBody() {
         state.map((obj) => {
             <h1>{obj.name}</h1>
             console.log(obj);
+            <h1>{obj}</h1>
         })
 
     }

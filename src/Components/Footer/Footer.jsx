@@ -34,7 +34,7 @@ function Footer() {
                                 <p className="small text-muted">Subscribe us to get notified on new arrivals and much more.</p>
                                 <form action="#">
                                     <div className="input-group mb-3">
-                                        <input style={{ color: 'white' }} className="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                                        <input style={{ color: 'white' }} className="form-control" type="text" placeholder="Email-Id" aria-label="Recipient's username" aria-describedby="button-addon2" />
                                         <button className="btn btn-primary" id="button-addon2" type="button"><i className="fas fa-paper-plane"></i>subscribe</button>
                                     </div>
                                 </form>
